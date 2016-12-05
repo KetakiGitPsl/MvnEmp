@@ -34,7 +34,9 @@ public class EmployeeServiceTest {
 
 	@Test
 	public void getAllEmployeesTest(){
-		System.out.println("Here");
+		
+		String version = System.getProperty("java.version");
+		System.out.println("Here= " + version);
 	//	List<Employee> list = service.getAllEmployees();
 //		for (Employee employee : list) {
 //			System.out.println("~" + employee.getName());
