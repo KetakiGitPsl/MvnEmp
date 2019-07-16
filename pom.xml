@@ -122,7 +122,7 @@
 				</configuration>
 			</plugin>
 			
-		  <plugin>
+		  <!--<plugin>
 			 <groupId>com.spotify</groupId>
 			 <artifactId>docker-maven-plugin</artifactId>
 			 <version>0.4.13</version>
@@ -149,8 +149,8 @@
 				 <serverId>docker-hub</serverId>
 				 <registryUrl>https://index.docker.io/v1/</registryUrl>
 		 
-				  <resources>        <!-- Dockerfile building resources -->
-					  <resource>
+				  <resources>  -->      <!-- Dockerfile building resources -->
+					 <!-- <resource>
 						  <targetPath>/usr/local/tomcat/webapps/</targetPath>
 						  <directory>${project.build.directory}</directory>
 						  <excludes>
@@ -162,7 +162,7 @@
 					  </resource>
 				  </resources>
 			 </configuration>
-		</plugin>
+		</plugin>-->
 		</plugins>
 	</build>
 </project>
