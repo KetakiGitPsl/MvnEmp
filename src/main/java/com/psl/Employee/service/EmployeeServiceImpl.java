@@ -12,7 +12,7 @@ import com.psl.Employee.entity.Employee;
 public class EmployeeServiceImpl implements IEmployeeService {
 	
 	@Autowired
-	private IEmployeeDAO dao;
+	private IEmployeeDAO dao; 
 
 	@Override
 	public List<Employee> getAllEmployees() {
