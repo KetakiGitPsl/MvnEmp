@@ -17,7 +17,7 @@ public class EmployeeServiceImpl implements IEmployeeService {
 	@Override
 	public List<Employee> getAllEmployees() {
 		System.out.println("In service");
-		return dao.getAllEmployees();
+		return dao.getAllEmployees();  
 	}
 
 }
