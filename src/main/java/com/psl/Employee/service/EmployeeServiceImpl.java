@@ -1,4 +1,4 @@
-package com.psl.Employee.service;      
+package com.psl.Employee.service;        
 
 import java.util.List;
 
@@ -17,7 +17,7 @@ public class EmployeeServiceImpl implements IEmployeeService {
 	@Override
 	public List<Employee> getAllEmployees() {
 		System.out.println("In service");
-		return dao.getAllEmployees();  
+		return dao.getAllEmployees();
 	}
 
 }
