@@ -19,7 +19,7 @@ import com.psl.Employee.service.IEmployeeService;
 public class HomeController {
 	  
 	@Autowired               
-	private IEmployeeService service
+	private IEmployeeService service;
 
 	@RequestMapping(value="/")
 	public ModelAndView test(HttpServletResponse response) throws IOException{
